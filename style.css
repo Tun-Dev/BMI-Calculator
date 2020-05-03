@@ -88,10 +88,18 @@ h2{
     div{
         width: 350px;
     }
+    body{
+        height: 1000px;
+        background-position: center;
+    }
 }
 
 @media only screen and (max-width:400px){
     div{
         width: 270px;
+    }
+    body{
+        height: 1000px;
+        background-position: center;
     }
 }
