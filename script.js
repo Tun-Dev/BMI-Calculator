@@ -8,7 +8,7 @@ function BMI(){
         window.alert("Please type in your Height and Weight");
         return
     }
-    if (h <= 0){
+    else if (h <= 0){
         window.alert ("Please type in your Height");
         return
     }
