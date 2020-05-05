@@ -4,8 +4,12 @@ function BMI(){
     var bm = w/(h/100*h/100);
     var bmi = (bm.toFixed(2));
 
-    if (h = 0 ||h === "" || w === ""){
+    if (h === "" || w === ""){
         window.alert("Please type in your Height and Weight");
+        return
+    }
+    if (h = 0){
+        window.alert ("Please type in your Height");
         return
     }
 
