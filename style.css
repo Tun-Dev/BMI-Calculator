@@ -84,6 +84,19 @@ h2{
     font-family: inherit;
 }
 
+h5{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+h6{
+    color: black;
+    font-size: 15px;
+    font-family: inherit;
+}
+
 @media only screen and (max-width:840px){
     div{
         width: 350px;
@@ -94,9 +107,20 @@ h2{
     }
 }
 
+@media only screen and (max-width:600px){
+    div{
+        width: 250px;
+    }
+    body{
+        height: 100vh;
+        background-position: center;
+    }
+}
+
+
 @media only screen and (max-width:400px){
     div{
-        width: 270px;
+        width: 250px;
     }
     body{
         height: 1000px;
